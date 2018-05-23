@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NC80CapTerminator", "NC80CapTerminator\NC80CapTerminator.csproj", "{AB9B831A-E5B8-4039-980E-FDED272D29E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VPNClient", "VPNClient\VPNClient.csproj", "{17C5663A-1780-4BD5-B3EF-8E88F097B04A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{AB9B831A-E5B8-4039-980E-FDED272D29E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB9B831A-E5B8-4039-980E-FDED272D29E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB9B831A-E5B8-4039-980E-FDED272D29E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17C5663A-1780-4BD5-B3EF-8E88F097B04A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17C5663A-1780-4BD5-B3EF-8E88F097B04A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17C5663A-1780-4BD5-B3EF-8E88F097B04A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17C5663A-1780-4BD5-B3EF-8E88F097B04A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E23C6D3-CB3A-4775-927F-1B5930DD8785}
 	EndGlobalSection
 EndGlobal
